@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border: 2px solid #000;
+    height: 50px;
+}
+
+header h1 {
+    float: left;
+    margin-left: 50px;
+}
+
+.table-header {
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.table-header td {
+    border: 1px solid black;
+    width: 120px;
+}
+
+.form {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.judul {
+    margin-bottom: 40px;
+}
+
+.input-form {
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.data {
+    margin-top: 135px;
+    margin-left: 100px;
+}
+
+.tabel-data {
+    text-align: center;
+}
+.tabel-data tr {
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.footer {
+    height: 50px;
+    border: 1px solid black;
+    text-align: right;
+    padding: 20px 80px 0 0;
+}
