@@ -6,102 +6,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>MyWebsite</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <h1>Logo</h1>
-        <table class="table-header" width="500px">
-            <tr>
-                <td>Home</td>
-                <td>My Profil</td>
-                <td>Portofolio</td>
-                <td>Message Us</td>
-            </tr>
-        </table>
-        <div class="clear"></div>
+    <header class="header">
+        <div class="logo">
+            <h1>MOQUPS</h1>
+        </div>
+        <div class="navigasi">
+            <div class="kiri"><a href="#main-all">Home</a></div>
+            <div class="tengah"><a href="#batas">Our Package</a></div>
+            <div class="kanan"><a href="#call-us">Call Us</a></div>
+        </div>
     </header>
-    <div class="content">
-        <div class="form">
-            <div class="judul">
-                <h1>Form belajar</h1>
-                <p>Ini adalah website pertama latihan</p>
+    <main class="main-all" id="main-all">
+        <div class="teks">
+            <h2>Top Rated E-Groceries Shop In Indonesian</h2>
+            <br>
+            <h3>Every Days With Best Ingridients</h3>
+        </div>
+        <div class="section">
+            <div class="kiri1">
+                <img src="amoon-ra-oWN1tKuUpJI-unsplash.jpg" alt="" width="683px" height="403.5px">
+                <div class="comment">
+                    <p><i>"Ayo beli sayur dan buah disini"</i></p>
+                    <br><br>
+                    <h4>Fulan bin Fulan</h4>
+                    <i>Pengusaha, 35</i>
+                </div>
+                <hr class="garis">
+                <div class="teks-bold">
+                    <b>Use this space to provide users with more information about your offer. Consider it follow up to
+                        your headline and explain the benefits of your service or product</b>
+                </div>
+                <table class="list3">
+                    <tr>
+                        <td>
+                            <div>1</div>
+                        </td>
+                        <td>
+                            <p>Your first feature, written on the form of a benefit statement.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>2</div>
+                        </td>
+                        <td>
+                            <p>Your second feature, written in the form of a benefit statement</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>3</div>
+                        </td>
+                        <td>
+                            <p>Your third feature, written in the form of a benefit statement</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <table width="500px">
-                <tr>
-                    <td>Nama</td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Tanggal Lahir</td>
-                    <td><input type="date" name="" id=""></td>
-                </tr>
-                <tr>
-                    <td>Jenis Kelamin</td>
-                    <td><input type="radio" name="" id="#">Laki-laki</td>
-                    <td><input type="radio" name="" id="#">Perempuan</td>
-                </tr>
-                <tr>
-                    <td>Pesan</td>
-                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
-                </tr>
-            </table>
-            <input type="submit" name="submit" value="Submit" class="input-form">
-            <div class="clear1"></div>
+            <div class="kanan1">
+                <div class="teks-kanan">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                </div>
+                <div class="form-kanan">
+                    <form action="index.html" method="post" onsubmit="validasi()">
+                        <b>Your Name :</b> <br>
+                        <input type="text" value="First And Last Name" id="nama"> <br>
+                        <b>Email Address :</b> <br>
+                        <input type="text" value="example@email.com" id="email"> <br>
+                        <b>What are you interested in</b> <br>
+                        <select id="selection">
+                            <option value="Select option">Select Option</option>
+                            <option value="a">a</option>
+                            <option value="b">b</option>
+                            <option value="c">c</option>
+                            <option value="d">d</option>
+                            <option value="e">e</option>
+                            <option value="f">f</option>
+                        </select>
+                        <br>
+                        <input type="submit" value="SEND" id="btn">
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="data">
-            <table border="1" width="600px" class="tabel-data">
-                <tr>
-                    <th>Nama</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Pesan</th>
-                    <th>Profil</th>
-                    <th>Delete</th>
-                </tr>
-                <tr>
-                    <td>Ahmad</td>
-                    <td>16 September 1987</td>
-                    <td>Laki-laki</td>
-                    <td>Hello World</td>
-                    <td><a href="#">Klik Disini</a></td>
-                    <td><a href="#">Delete</a></td>
-                </tr>
-                <tr>
-                    <td>Putri</td>
-                    <td>25 Februari 1997</td>
-                    <td>Perempuan</td>
-                    <td>Website</td>
-                    <td><a href="#">Klik Disini</a></td>
-                    <td><a href="#">Delete</a></td>
-                </tr>
-                <tr>
-                    <td>Budi</td>
-                    <td>30 Januari 1995</td>
-                    <td>Laki-laki</td>
-                    <td>Hello World</td>
-                    <td><a href="#">Klik Disini</a></td>
-                    <td><a href="#">Delete</a></td>
-                </tr>
-                <tr>
-                    <td>Erna</td>
-                    <td>11 Juni 2000</td>
-                    <td>Perempuan</td>
-                    <td>Portofolio</td>
-                    <td><a href="#">Klik Disini</a></td>
-                    <td><a href="#">Delete</a></td>
-                </tr>
-            </table>
-            <div class="clear2"></div>
+        <div class="batas" id="batas">
+            <h1>Our Package</h1>
         </div>
-    </div>
-
-    <div class="footer">
-        <p>Created By Mnaqor66</p>
-    </div>
-
-
+        <div class="package-all">
+            <div class="package-atas">
+                <div class="package-atas-kiri">
+                    <h3>Fresh Vegetable</h3>
+                    <p>Sayuran segar dari sumber pertanian terbaik</p>
+                </div>
+                <div class="package-atas-tengah">
+                    <h3>Fresh Fruit</h3>
+                    <p>Buah dengan kualitas terbaik dari local atau impor dan harga yang menarik</p>
+                </div>
+                <div class="package-atas-kanan">
+                    <h3>Instant delivery</h3>
+                    <p>Dikirim instan oleh kurir yang telah ditraining dengan SOP untuk menjaga kondisi belanja kamu</p>
+                </div>
+            </div>
+            <hr class="garis">
+            <div class="package-bawah">
+                <div class="package-bawah-kiri">
+                    <h3>Kitchen Ingridients</h3>
+                    <p>Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+                </div>
+                <div class="package-bawah-tengah">
+                    <h3>Kitchen Set</h3>
+                    <p>Segala jenis alat masak untuk membantu kamu memasak</p>
+                </div>
+                <div class="package-bawah-kanan">
+                    <h3>Bunding Set</h3>
+                    <p>Bingug masak apa? sudah tersedia paket untuk kamu masak di dapur mu</p>
+                </div>
+            </div>
+        </div>
+        <hr class="garis1">
+        <div class="call-us" id="call-us">
+            <div class="teks-call-us">
+                <h1>Your Closing Argument Headline</h1>
+                <p>Suspendisseegestas rhoncus urna in bibendum. Donec urna neque, euismod sed <br> justo quis, convallis
+                    tincidunt risus. Phasellus fringilla odio vel elat fringilla</p>
+            </div>
+            <div class="button-call-us">
+                <button>CALL TO ACTION</button>
+            </div>
+        </div>
+        <hr class="garis1">
+    </main>
+    <footer class="footer">
+        <div class="logo-footer">
+            <h3>MOQUPS</h3>
+        </div>
+        <div class="teks-footer-tengah">
+            <div class="teks-footer-tengah-kiri">
+                <p>Terms and Service</p>
+            </div>
+            <div class="teks-footer-tengah-kanan">
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <div class="teks-footer-bawah">
+            <p>&copy; 2019 Moqups</p>
+        </div>
+    </footer>
 </body>
+<script type="text/javascript">
+    function validasi() {
+        var nama = document.getElementById ("nama").value;
+        var email = document.getElementById ("email").value;
+        var selection = document.getElementById ("selection").value;
+        if (nama !="" && email !="" && selection !="") {
+            return true;
+        } else {
+            alert("Isilah dengan lengkap !")
+        }
+    }
+</script>
 
 </html>

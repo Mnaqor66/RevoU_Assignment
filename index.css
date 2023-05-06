@@ -3,64 +3,225 @@
     margin: 0;
 }
 
-header {
-    border: 2px solid #000;
-    height: 50px;
-}
-
-header h1 {
-    float: left;
-    margin-left: 50px;
-}
-
-.table-header {
-    float: right;
-    margin-right: 50px;
-    text-align: center;
-    border: 1px solid black;
-}
-
-.table-header td {
-    border: 1px solid black;
-    width: 120px;
-}
-
-.form {
-    margin-left: 80px;
-    margin-top: 40px;
-}
-
-.judul {
-    margin-bottom: 40px;
-}
-
-.input-form {
-    width: 500px;
-    height: 35px;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.data {
-    margin-top: 135px;
-    margin-left: 100px;
-}
-
-.tabel-data {
-    text-align: center;
-}
-.tabel-data tr {
-    height: 50px;
-}
-
-.content {
+.header {
     display: flex;
-    margin-bottom: 50px;
+    justify-content: space-between;
+    padding: 5px 50px;
+    border-bottom: 1px solid grey;
+}
+
+.navigasi {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.navigasi div {
+    padding: 1em;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: #000;
+}
+
+.tengah {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.teks {
+    width: fit-content;
+    margin: 2em auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teks h3 {
+    color: grey;
+}
+
+.section {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.kiri1 {
+    display: flexbox;
+    width: 50%;
+    padding: 25px 50px;
+}
+
+.comment {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    padding-top: 1em;
+}
+
+.garis {
+    width: 20%;
+    margin: 1em auto;
+    color: lightgrey;
+}
+
+.list3 {
+    margin-top: 2em;
+}
+
+.list3 div {
+    height: 1em;
+    width: 1em;
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+    text-align: center;
+    background-color: lightgrey;
+    color: grey;
+    font-weight: 600;
+}
+
+.list3 p {
+    padding-left: 2em;
+    color: grey;
+    margin-bottom: 1em;
+}
+
+.kanan1 {
+    display: flexbox;
+    width: 50%;
+    height: fit-content;
+    margin: 1.5em 3em 0 0;
+    border-radius: 3px;
+    padding: 25px 50px;
+    background-color: lightgrey;
+}
+
+.teks-kanan {
+    margin-bottom: 3em;
+}
+
+.form-kanan input {
+    height: 3em;
+    width: 90%;
+    margin-bottom: 2em;
+    color: gray;
+}
+
+.form-kanan select {
+    width: 90%;
+    height: 3em;
+    color: gray;
+}
+
+.form-kanan option {
+    color: black;
+}
+
+#btn {
+    margin-top: 2em;
+}
+
+.batas {
+    box-sizing: border-box;
+    height: 8em;
+    padding: 3em;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.package-atas {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-top: 2em;
+}
+
+.package-atas div {
+    margin: 2em;
+    padding: 2em;
+    display: flexbox;
+    width: 33%;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.package-atas h3 {
+    margin-bottom: 1em;
+}
+
+.package-bawah {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-top: 1em;
+}
+
+.package-bawah div {
+    margin: 2em;
+    padding: 2em;
+    display: flexbox;
+    width: 33%;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.package-bawah h3 {
+    margin-bottom: 1em;
+}
+
+.garis1 {
+    color: lightgray;
+}
+
+.teks-call-us {
+    width: fit-content;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.teks-call-us h1 {
+    margin-bottom: 1em;
+}
+
+.button-call-us {
+    width: fit-content;
+    margin: auto;
+    width: 15%;
+}
+
+.button-call-us button {
+    width: 100%;
+    height: 3em;
+    margin: auto;
+    background-color: #29323d;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4em;
 }
 
 .footer {
-    height: 50px;
-    border: 1px solid black;
-    text-align: right;
-    padding: 20px 80px 0 0;
+    height: 150px;
+}
+
+.logo-footer {
+    width: fit-content;
+    margin: 2em auto 1em;
+}
+
+.teks-footer-tengah {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.teks-footer-tengah div {
+    padding: 0 0.5em 0 0.5em;
+}
+
+.teks-footer-bawah {
+    width: fit-content;
+    margin: auto;
 }
