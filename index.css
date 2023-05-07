@@ -3,21 +3,30 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: satisfy;
+    src: url(Satisfy-Regular.ttf);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 5px 50px;
     border-bottom: 1px solid grey;
 }
+.logo h1 {
+    font-family: 'satisfy';
+}
 
 .navigasi {
     display: flex;
     flex-direction: row;
     border: 1px solid black;
+    border-radius: 3px;
 }
 
 .navigasi div {
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .navigasi a {
@@ -48,8 +57,12 @@
 
 .kiri1 {
     display: flexbox;
-    width: 50%;
+    width: 70%;
     padding: 25px 50px;
+}
+
+.kiri1 img {
+    width: 100%;
 }
 
 .comment {
@@ -89,7 +102,7 @@
 
 .kanan1 {
     display: flexbox;
-    width: 50%;
+    width: 30%;
     height: fit-content;
     margin: 1.5em 3em 0 0;
     border-radius: 3px;
@@ -130,11 +143,17 @@
     background-color: lightgray;
 }
 
+.package-all {
+    width: 100%;
+}
+
 .package-atas {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
     margin-top: 2em;
+    width: 100%;
+    height: fit-content;
 }
 
 .package-atas div {
@@ -142,8 +161,9 @@
     padding: 2em;
     display: flexbox;
     width: 33%;
-    height: 100px;
-    background-color: lightgray;
+    height: 50%;
+    overflow: auto;
+    background-color: #fff;
 }
 
 .package-atas h3 {
@@ -155,6 +175,8 @@
     flex-direction: row;
     box-sizing: border-box;
     margin-top: 1em;
+    height: fit-content;
+    width: 100%;
 }
 
 .package-bawah div {
@@ -162,8 +184,9 @@
     padding: 2em;
     display: flexbox;
     width: 33%;
-    height: 100px;
-    background-color: lightgray;
+    height: 50%;
+    overflow: auto;
+    background-color: #fff;
 }
 
 .package-bawah h3 {
@@ -207,6 +230,10 @@
 .logo-footer {
     width: fit-content;
     margin: 2em auto 1em;
+}
+
+.logo-footer h3 {
+    font-family: 'satisfy';
 }
 
 .teks-footer-tengah {
